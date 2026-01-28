@@ -1596,7 +1596,7 @@ export function PriceDvi() {
     payments
       .pay("charge", {
         // options
-        publicId: "pk_1e7fa51c02677380a7397ba078f3b",
+        publicId: "hide",
         paymentSchema: "Single",
         description: `Курсы lomonosovites.ru${arrCourse[month][currentPrice]} Клиент ${PeopleName} ${PeoplePhone}`,
         restrictedPaymentMethods: [
@@ -2180,7 +2180,7 @@ export function PricePyEng() {
     payments
       .pay("charge", {
         // options
-        publicId: "pk_1e7fa51c02677380a7397ba078f3b",
+        publicId: "hide",
         paymentSchema: "Single",
         description: `Курсы lomonosovites.ru${arrCourse[month][currentPrice]} Клиент ${PeopleName} ${PeoplePhone}`,
         restrictedPaymentMethods: [
@@ -3027,3 +3027,4 @@ export function PricePyEng() {
     </div>
   );
 }
+
